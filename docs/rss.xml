@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>沛明</title><link>https://jtmingyiqiu.github.io</link><description>一个死肥宅的碎碎念</description><copyright>沛明</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://jtmingyiqiu.github.io</link></image><lastBuildDate>Thu, 20 Feb 2025 07:28:00 +0000</lastBuildDate><managingEditor>沛明</managingEditor><ttl>60</ttl><webMaster>沛明</webMaster><item><title>本地部署deepseek</title><link>https://jtmingyiqiu.github.io/post/ben-di-bu-shu-deepseek.html</link><description>## 1.打开ollama官方网站下载  
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>沛明</title><link>https://jtmingyiqiu.github.io</link><description>一个死肥宅的碎碎念</description><copyright>沛明</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://jtmingyiqiu.github.io</link></image><lastBuildDate>Fri, 11 Apr 2025 15:01:22 +0000</lastBuildDate><managingEditor>沛明</managingEditor><ttl>60</ttl><webMaster>沛明</webMaster><item><title>汇编基础</title><link>https://jtmingyiqiu.github.io/post/hui-bian-ji-chu.html</link><description>mov 赋值   mov rax,rcx   是把rcx的值，给到了rax 
+add 加法  add rax ,64 rax上加了64
+sub 减法
+inc 自增 inc rax   是rax自己加1
+dec 自减 
+[] 取值， exa = 0X400000  ,这个地址存的值 是0x905a4d  
+那么 mov  exc,[eax]   这里是把exa这里面的值，给到了ecx ,此时 ，ecx =0x905a4d  。</description><guid isPermaLink="true">https://jtmingyiqiu.github.io/post/hui-bian-ji-chu.html</guid><pubDate>Fri, 11 Apr 2025 15:00:57 +0000</pubDate></item><item><title>本地部署deepseek</title><link>https://jtmingyiqiu.github.io/post/ben-di-bu-shu-deepseek.html</link><description>## 1.打开ollama官方网站下载  
 ‘’‘https://ollama.com/‘’
 
 ## 2.安装并设置环境变量
